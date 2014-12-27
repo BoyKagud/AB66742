@@ -257,7 +257,8 @@ $(document).ready(function() {
 				<select class="form-control" name="subscription">
 					<option value="monthly">Subscription: Monthly ($5), 14-days FREE</option>
 					<option value="annual">Subscription: Annual ($50), 14-days FREE</option>
-					<option value="forever">Subscription: Forever ($99), 14-days FREE</option>
+					<!-- <option value="forever">Subscription: Forever ($99), 14-days FREE</option> -->
+					<option value="triannual">Subscription: 3-Year Plan ($99), 14-days FREE</option>
 				</select>
 			</div>
 			<div class="form-group has-warning required">
