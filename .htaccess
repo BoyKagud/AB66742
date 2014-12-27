@@ -1,0 +1,11 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteCond $1 !^(index\.php|view|robots\.txt|styles)
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+ 
+RewriteRule ^.*$ ./index.php [L]

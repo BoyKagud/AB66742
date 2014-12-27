@@ -1,0 +1,21 @@
+"Contribution ID",Contributor,Contribution,Value,Reimbursement,Date,Project,Description,Slices
+1563,Slav,Time,2,0,2014-10-18,Research,"Researching how to setup an API including best practises",220
+1564,Slav,Time,3,0,2014-10-17,"Product Development","Setting up the API",330
+1565,Slav,Time,5,0,2014-10-19,"Product Development","Setting up the API",550
+1566,Slav,Time,5,0,2014-10-20,"Product Development","Setting up GitHub. Deploying API to GitHub. Adding tests for API calls.",550
+1567,Slav,Time,5,0,2014-10-20,"General Operations","Setting up at new office at Wavefront. Setting up laptop for TotalFitness. Reviewing existing TotalFitness accounts",550
+1568,Slav,Time,6,0,2014-10-21,"Product Development","Setting up Trello, Amazon AWS. Creating first API touchpoint for users. Setting up authentication for API.",660
+1569,Slav,Time,3,0,2014-10-22,Marketing,"Writing bio about myself, as an extended PR, condensed PR, and one sentence.",330
+1570,Slav,Time,5.25,0,2014-10-22,"Product Development","Setting up BaseCamp. Writing tests for API.",577.5
+1571,Slav,Time,1,0,2014-10-23,"Product Development","Setting up better debugging for API",110
+1572,Slav,Time,1.75,0,2014-10-23,Marketing,"Reaching out to Lighthouse Labs students and alumni, as well as HighLine individuals. Connecting with 90+ LinkedIn accounts, and 60+ Twitter accounts.",192.5
+1573,Slav,Time,2.25,0,2014-10-23,"Product Development","Meeting with Pieoneers team re: flow chart, notes, and user stories",247.5
+1574,Slav,Time,1.5,0,2014-10-23,"Product Development","Setting up Wave. Working on API.",165
+1575,Slav,Time,2.75,0,2014-10-24,"Product Development","Reaching out to iOS dev shops in Vancouver",302.5
+1576,Slav,Time,2,0,2014-10-24,"Product Development","Implementing ability to update users for API.",220
+1577,Slav,Time,2,0,2014-10-24,"Product Development","Implementing ability to update users for API. Setting up API wiki. Setting up Heroku.",220
+1578,Slav,Time,1.25,0,2014-10-25,"Product Development","Implementing ability to delete users for API.",137.5
+1579,Slav,Time,1.5,0,2014-10-25,Research,"Creating new app to find number of instagram tags",165
+1580,Slav,Time,2,0,2014-10-25,Marketing,"Setting up Latergramme. Finding pictures to post on Instagram. Finding inspiration for text overlay. Installing GIMP for image editing. Creating multiple images for future posting. Creating text to accompany pictures on Instagram. Scheduling first Latergramme post.",220
+1610,Landon,Time,3840,0,2014-10-29,"Product Development",,230400
+1611,Mongski,Time,1280,0,2014-10-29,Sales,total,76800

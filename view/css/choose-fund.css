@@ -1,0 +1,30 @@
+/**************Choose fund***************/
+body {
+	background:#f7f7f7;
+	}
+.wrap-choose-fund {
+	margin:200px auto 0px;
+	height:50px;
+	width:500px;
+	text-align:center;
+	background:url('../images/logo-main.png') top center no-repeat;
+	padding: 90px 0 0;
+	font-size: 18px; 
+	font-family:Verdana, Geneva, sans-serif;
+	}
+	
+.form-intro { 
+	padding: 2px; 
+	text-align: center; 
+	border: 1px solid #ddd; 
+	border-radius:3px;
+	}
+	
+a, a:hover {
+	background: none repeat scroll 0 0 #bf0000;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px;
+	text-decoration:none;
+}

@@ -1,0 +1,520 @@
+[10-Aug-2014 17:08:33 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 129
+[10-Aug-2014 17:08:33 UTC] PHP Warning:  Division by zero in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 129
+[18-Sep-2014 14:33:36 UTC] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/withanch/public_html/slicingpie.com/pieslicer/system/SQLHelper.php on line 51
+[18-Sep-2014 14:33:36 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/withanch/public_html/slicingpie.com/pieslicer/system/SQLHelper.php on line 524
+[23-Sep-2014 14:45:04 UTC] PHP Warning:  require_once(controller/Payments_Controller.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 14
+[23-Sep-2014 14:45:04 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'controller/Payments_Controller.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 14
+[23-Sep-2014 15:07:48 UTC] PHP Warning:  require_once(controller/Payments_Controller.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 14
+[23-Sep-2014 15:07:48 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'controller/Payments_Controller.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 14
+[23-Sep-2014 15:10:13 UTC] PHP Warning:  require_once(controller/Payments_Controller.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 14
+[23-Sep-2014 15:10:13 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'controller/Payments_Controller.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 14
+[23-Sep-2014 15:10:26 UTC] PHP Warning:  require_once(controller/Payments_Controller.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 14
+[23-Sep-2014 15:10:26 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'controller/Payments_Controller.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 14
+[23-Sep-2014 15:11:04 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php on line 30
+[23-Sep-2014 15:12:13 UTC] PHP Fatal error:  Class 'Controller' not found in /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php on line 2
+[23-Sep-2014 15:12:43 UTC] PHP Fatal error:  Class 'Controller' not found in /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php on line 2
+[23-Sep-2014 15:13:50 UTC] PHP Warning:  require_once(controller/braintree/lib/Braintree.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php on line 9
+[23-Sep-2014 15:13:50 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'controller/braintree/lib/Braintree.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php on line 9
+[23-Sep-2014 15:21:52 UTC] PHP Warning:  require_once(controller/braintree/lib/Braintree.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php on line 9
+[23-Sep-2014 15:21:53 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'controller/braintree/lib/Braintree.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php on line 9
+[23-Sep-2014 16:02:54 UTC] PHP Parse error:  syntax error, unexpected T_ELSE in /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php on line 11
+[23-Sep-2014 16:03:09 UTC] PHP Parse error:  syntax error, unexpected T_ELSE in /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php on line 11
+[23-Sep-2014 16:03:30 UTC] PHP Warning:  require_once(controller/braintree/lib/Braintree.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php on line 10
+[23-Sep-2014 16:03:30 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'controller/braintree/lib/Braintree.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php on line 10
+[23-Sep-2014 16:04:29 UTC] PHP Fatal error:  Cannot use object of type Payments_Controller as array in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 17
+[23-Sep-2014 16:04:43 UTC] PHP Fatal error:  Cannot use object of type Payments_Controller as array in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 17
+[23-Sep-2014 16:05:39 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'expected customer id to be set' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Customer.php:525
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Customer.php(190): Braintree_Customer::_validateId(NULL)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(44): Braintree_Customer::find(NULL)
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(20): Payments_Controller->createSubscription(0, NULL, '1')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): nFund(Array)
+#4 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Customer.php on line 525
+[23-Sep-2014 16:05:54 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'expected customer id to be set' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Customer.php:525
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Customer.php(190): Braintree_Customer::_validateId(NULL)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(44): Braintree_Customer::find(NULL)
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(20): Payments_Controller->createSubscription(0, NULL, '1')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): nFund(Array)
+#4 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Customer.php on line 525
+[23-Sep-2014 16:10:00 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'expected customer id to be set' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Customer.php:525
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Customer.php(190): Braintree_Customer::_validateId(NULL)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(44): Braintree_Customer::find(NULL)
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(20): Payments_Controller->createSubscription(0, 'monthly', '1')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): nFund(Array)
+#4 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Customer.php on line 525
+[23-Sep-2014 16:10:15 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'expected customer id to be set' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Customer.php:525
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Customer.php(190): Braintree_Customer::_validateId(NULL)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(44): Braintree_Customer::find(NULL)
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(20): Payments_Controller->createSubscription(0, 'monthly', '1')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): nFund(Array)
+#4 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Customer.php on line 525
+[23-Sep-2014 16:11:49 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' with message 'customer with id 1 not found' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Customer.php:195
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(44): Braintree_Customer::find('1')
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(20): Payments_Controller->createSubscription(0, 'monthly', '1')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): nFund(Array)
+#3 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Customer.php on line 195
+[23-Sep-2014 16:12:06 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' with message 'customer with id 1 not found' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Customer.php:195
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(44): Braintree_Customer::find('1')
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(20): Payments_Controller->createSubscription(0, 'monthly', '1')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): nFund(Array)
+#3 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Customer.php on line 195
+[23-Sep-2014 16:30:18 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' with message 'customer with id 1 not found' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Customer.php:195
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(49): Braintree_Customer::find('1')
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(20): Payments_Controller->createSubscription(0, 'monthly', '1')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): nFund(Array)
+#3 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Customer.php on line 195
+[23-Sep-2014 16:31:15 UTC] PHP Notice:  Undefined property on Braintree_Result_Successful: errors in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Instance.php on line 34
+[23-Sep-2014 16:31:16 UTC] PHP Fatal error:  Call to a member function deepAll() on a non-object in /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php on line 90
+[23-Sep-2014 16:57:07 UTC] PHP Notice:  Undefined property on Braintree_Result_Successful: errors in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Instance.php on line 34
+[23-Sep-2014 16:57:07 UTC] PHP Fatal error:  Call to a member function deepAll() on a non-object in /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php on line 90
+[23-Sep-2014 16:57:45 UTC] PHP Notice:  Undefined property on Braintree_Result_Successful: errors in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Instance.php on line 34
+[23-Sep-2014 16:57:45 UTC] PHP Fatal error:  Call to a member function deepAll() on a non-object in /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php on line 90
+[23-Sep-2014 17:02:08 UTC] PHP Fatal error:  Call to undefined function getPlanID() in /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php on line 99
+[23-Sep-2014 17:02:45 UTC] PHP Fatal error:  Call to undefined function getPlanID() in /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php on line 99
+[23-Sep-2014 17:04:48 UTC] PHP Fatal error:  Call to undefined function getPlanID() in /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php on line 99
+[23-Sep-2014 17:15:56 UTC] PHP Fatal error:  Class 'Controller' not found in /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php on line 2
+[23-Sep-2014 17:36:38 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php:59
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Http.php(48): Braintree_Util::throwStatusCodeException(404)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Subscription.php(112): Braintree_Http::put('/subscriptions/...')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(35): Braintree_Subscription::cancel('')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(175): Payments_Controller->cancelSubscription('')
+#4 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): delFund(Array)
+#5 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php on line 59
+[30-Sep-2014 16:47:01 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php:59
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Http.php(48): Braintree_Util::throwStatusCodeException(404)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Subscription.php(112): Braintree_Http::put('/subscriptions/...')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(36): Braintree_Subscription::cancel('monthly')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(180): Payments_Controller->cancelSubscription('monthly')
+#4 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): delFund(Array)
+#5 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php on line 59
+[30-Sep-2014 16:47:16 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php:59
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Http.php(48): Braintree_Util::throwStatusCodeException(404)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Subscription.php(112): Braintree_Http::put('/subscriptions/...')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(36): Braintree_Subscription::cancel('monthly')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(180): Payments_Controller->cancelSubscription('monthly')
+#4 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): delFund(Array)
+#5 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php on line 59
+[30-Sep-2014 17:18:22 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php:59
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Http.php(48): Braintree_Util::throwStatusCodeException(404)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Subscription.php(112): Braintree_Http::put('/subscriptions/...')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(36): Braintree_Subscription::cancel('')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(180): Payments_Controller->cancelSubscription('')
+#4 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): delFund(Array)
+#5 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php on line 59
+[30-Sep-2014 17:18:31 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php:59
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Http.php(48): Braintree_Util::throwStatusCodeException(404)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Subscription.php(112): Braintree_Http::put('/subscriptions/...')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(36): Braintree_Subscription::cancel('')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(180): Payments_Controller->cancelSubscription('')
+#4 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): delFund(Array)
+#5 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php on line 59
+[30-Sep-2014 17:18:53 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php:59
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Http.php(48): Braintree_Util::throwStatusCodeException(404)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Subscription.php(112): Braintree_Http::put('/subscriptions/...')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(36): Braintree_Subscription::cancel('')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(180): Payments_Controller->cancelSubscription('')
+#4 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): delFund(Array)
+#5 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php on line 59
+[30-Sep-2014 17:26:40 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php:59
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Http.php(48): Braintree_Util::throwStatusCodeException(404)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Subscription.php(112): Braintree_Http::put('/subscriptions/...')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(36): Braintree_Subscription::cancel('')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(180): Payments_Controller->cancelSubscription('')
+#4 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): delFund(Array)
+#5 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php on line 59
+[30-Sep-2014 17:28:35 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php:59
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Http.php(48): Braintree_Util::throwStatusCodeException(404)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Subscription.php(112): Braintree_Http::put('/subscriptions/...')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(36): Braintree_Subscription::cancel('')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(180): Payments_Controller->cancelSubscription('')
+#4 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): delFund(Array)
+#5 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php on line 59
+[30-Sep-2014 17:47:19 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php:59
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Http.php(48): Braintree_Util::throwStatusCodeException(404)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Subscription.php(112): Braintree_Http::put('/subscriptions/...')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(36): Braintree_Subscription::cancel('')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(180): Payments_Controller->cancelSubscription('')
+#4 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): delFund(Array)
+#5 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php on line 59
+[30-Sep-2014 17:47:52 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php:59
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Http.php(48): Braintree_Util::throwStatusCodeException(404)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Subscription.php(112): Braintree_Http::put('/subscriptions/...')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(36): Braintree_Subscription::cancel('')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(180): Payments_Controller->cancelSubscription('')
+#4 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): delFund(Array)
+#5 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php on line 59
+[30-Sep-2014 17:48:09 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php:59
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Http.php(48): Braintree_Util::throwStatusCodeException(404)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Subscription.php(112): Braintree_Http::put('/subscriptions/...')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(36): Braintree_Subscription::cancel('')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(180): Payments_Controller->cancelSubscription('')
+#4 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): delFund(Array)
+#5 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php on line 59
+[01-Oct-2014 12:39:50 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php:59
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Http.php(48): Braintree_Util::throwStatusCodeException(404)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Subscription.php(112): Braintree_Http::put('/subscriptions/...')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(36): Braintree_Subscription::cancel('monthly')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(180): Payments_Controller->cancelSubscription('monthly')
+#4 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): delFund(Array)
+#5 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php on line 59
+[01-Oct-2014 12:40:25 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php:59
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Http.php(48): Braintree_Util::throwStatusCodeException(404)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Subscription.php(112): Braintree_Http::put('/subscriptions/...')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(36): Braintree_Subscription::cancel('monthly')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(180): Payments_Controller->cancelSubscription('monthly')
+#4 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): delFund(Array)
+#5 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php on line 59
+[01-Oct-2014 17:30:22 UTC] PHP Warning:  Division by zero in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 148
+[01-Oct-2014 18:46:11 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php:59
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Http.php(48): Braintree_Util::throwStatusCodeException(404)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Subscription.php(112): Braintree_Http::put('/subscriptions/...')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(36): Braintree_Subscription::cancel('monthly')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(180): Payments_Controller->cancelSubscription('monthly')
+#4 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): delFund(Array)
+#5 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php on line 59
+[02-Oct-2014 15:36:01 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php:59
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Http.php(48): Braintree_Util::throwStatusCodeException(404)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Subscription.php(112): Braintree_Http::put('/subscriptions/...')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(36): Braintree_Subscription::cancel('monthly')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(180): Payments_Controller->cancelSubscription('monthly')
+#4 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): delFund(Array)
+#5 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php on line 59
+[02-Oct-2014 15:36:21 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php:59
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Http.php(48): Braintree_Util::throwStatusCodeException(404)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Subscription.php(112): Braintree_Http::put('/subscriptions/...')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(36): Braintree_Subscription::cancel('monthly')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(180): Payments_Controller->cancelSubscription('monthly')
+#4 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): delFund(Array)
+#5 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php on line 59
+[02-Oct-2014 17:15:41 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php:59
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Http.php(48): Braintree_Util::throwStatusCodeException(404)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Subscription.php(112): Braintree_Http::put('/subscriptions/...')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(36): Braintree_Subscription::cancel('monthly')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(180): Payments_Controller->cancelSubscription('monthly')
+#4 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): delFund(Array)
+#5 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php on line 59
+[02-Oct-2014 17:16:14 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php:59
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Http.php(48): Braintree_Util::throwStatusCodeException(404)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Subscription.php(112): Braintree_Http::put('/subscriptions/...')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(36): Braintree_Subscription::cancel('monthly')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(180): Payments_Controller->cancelSubscription('monthly')
+#4 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): delFund(Array)
+#5 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php on line 59
+[02-Oct-2014 22:19:41 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php:59
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Http.php(48): Braintree_Util::throwStatusCodeException(404)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Subscription.php(112): Braintree_Http::put('/subscriptions/...')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(36): Braintree_Subscription::cancel('monthly')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(180): Payments_Controller->cancelSubscription('monthly')
+#4 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): delFund(Array)
+#5 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php on line 59
+[02-Oct-2014 22:52:00 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php:59
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Http.php(48): Braintree_Util::throwStatusCodeException(404)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Subscription.php(112): Braintree_Http::put('/subscriptions/...')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(36): Braintree_Subscription::cancel('monthly')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(180): Payments_Controller->cancelSubscription('monthly')
+#4 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): delFund(Array)
+#5 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php on line 59
+[03-Oct-2014 13:11:28 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php:59
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Http.php(48): Braintree_Util::throwStatusCodeException(404)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Subscription.php(112): Braintree_Http::put('/subscriptions/...')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(36): Braintree_Subscription::cancel('monthly')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(180): Payments_Controller->cancelSubscription('monthly')
+#4 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): delFund(Array)
+#5 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php on line 59
+[03-Oct-2014 13:11:47 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php:59
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Http.php(48): Braintree_Util::throwStatusCodeException(404)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Subscription.php(112): Braintree_Http::put('/subscriptions/...')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(36): Braintree_Subscription::cancel('monthly')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(180): Payments_Controller->cancelSubscription('monthly')
+#4 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): delFund(Array)
+#5 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php on line 59
+[06-Oct-2014 16:22:42 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php:59
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Http.php(48): Braintree_Util::throwStatusCodeException(404)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Subscription.php(112): Braintree_Http::put('/subscriptions/...')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(36): Braintree_Subscription::cancel('')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(180): Payments_Controller->cancelSubscription('')
+#4 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): delFund(Array)
+#5 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php on line 59
+[06-Oct-2014 16:24:46 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php:59
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Http.php(48): Braintree_Util::throwStatusCodeException(404)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Subscription.php(112): Braintree_Http::put('/subscriptions/...')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(36): Braintree_Subscription::cancel('')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(180): Payments_Controller->cancelSubscription('')
+#4 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): delFund(Array)
+#5 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php on line 59
+[06-Oct-2014 16:26:28 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php:59
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Http.php(48): Braintree_Util::throwStatusCodeException(404)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Subscription.php(112): Braintree_Http::put('/subscriptions/...')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(36): Braintree_Subscription::cancel('')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(180): Payments_Controller->cancelSubscription('')
+#4 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): delFund(Array)
+#5 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php on line 59
+[06-Oct-2014 16:29:08 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php:59
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Http.php(48): Braintree_Util::throwStatusCodeException(404)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Subscription.php(112): Braintree_Http::put('/subscriptions/...')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(36): Braintree_Subscription::cancel('')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(180): Payments_Controller->cancelSubscription('')
+#4 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): delFund(Array)
+#5 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php on line 59
+[06-Oct-2014 16:47:40 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php:59
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Http.php(48): Braintree_Util::throwStatusCodeException(404)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Subscription.php(112): Braintree_Http::put('/subscriptions/...')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(36): Braintree_Subscription::cancel('')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(180): Payments_Controller->cancelSubscription('')
+#4 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): delFund(Array)
+#5 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php on line 59
+[06-Oct-2014 17:00:06 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 25
+[06-Oct-2014 17:18:09 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'expected customer id to be set' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Customer.php:525
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Customer.php(190): Braintree_Customer::_validateId(NULL)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(56): Braintree_Customer::find(NULL)
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(23): Payments_Controller->createSubscription(0, 'monthly', '1', NULL)
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): nFund(Array)
+#4 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Customer.php on line 525
+[06-Oct-2014 17:29:43 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' with message 'customer with id 57457324 not found' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Customer.php:195
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(57): Braintree_Customer::find('57457324')
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(23): Payments_Controller->createSubscription(0, 'monthly', '1', Array)
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): nFund(Array)
+#3 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Customer.php on line 195
+[06-Oct-2014 17:41:20 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'expected customer id to be set' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Customer.php:525
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Customer.php(190): Braintree_Customer::_validateId('0')
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(57): Braintree_Customer::find('0')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(23): Payments_Controller->createSubscription(0, 'monthly', '1', Array)
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): nFund(Array)
+#4 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Customer.php on line 525
+[06-Oct-2014 18:03:20 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'expected customer id to be set' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Customer.php:525
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Customer.php(190): Braintree_Customer::_validateId('0')
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(57): Braintree_Customer::find('0')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(23): Payments_Controller->createSubscription(0, 'monthly', '1', Array)
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): nFund(Array)
+#4 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Customer.php on line 525
+[07-Oct-2014 15:31:39 UTC] PHP Notice:  Undefined property on Braintree_Result_Error: customer in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree.php on line 47
+[07-Oct-2014 15:36:15 UTC] PHP Notice:  Undefined property on Braintree_Result_Error: customer in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree.php on line 47
+[07-Oct-2014 15:42:15 UTC] PHP Notice:  Undefined property on Braintree_Result_Successful: errors in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Instance.php on line 34
+[07-Oct-2014 15:42:15 UTC] PHP Fatal error:  Call to a member function deepAll() on a non-object in /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php on line 117
+[07-Oct-2014 15:55:08 UTC] PHP Notice:  Undefined property on Braintree_Result_Error: customer in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree.php on line 47
+[07-Oct-2014 16:48:39 UTC] PHP Fatal error:  Call to a member function createSubscription() on a non-object in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 23
+[07-Oct-2014 16:48:41 UTC] PHP Notice:  Undefined property on Braintree_Result_Error: customer in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree.php on line 47
+[07-Oct-2014 16:48:41 UTC] PHP Fatal error:  Call to a member function createSubscription() on a non-object in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 23
+[07-Oct-2014 16:48:42 UTC] PHP Notice:  Undefined property on Braintree_Result_Error: customer in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree.php on line 47
+[07-Oct-2014 16:48:42 UTC] PHP Fatal error:  Call to a member function createSubscription() on a non-object in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 23
+[07-Oct-2014 17:04:27 UTC] PHP Fatal error:  Class 'Payments_Controller' not found in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 189
+[07-Oct-2014 17:04:41 UTC] PHP Fatal error:  Class 'Payments_Controller' not found in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 189
+[07-Oct-2014 17:04:54 UTC] PHP Fatal error:  Class 'Payments_Controller' not found in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 189
+[07-Oct-2014 17:05:24 UTC] PHP Fatal error:  Call to a member function cancelSubscription() on a non-object in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 192
+[07-Oct-2014 17:05:37 UTC] PHP Fatal error:  Call to a member function cancelSubscription() on a non-object in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 192
+[07-Oct-2014 17:05:48 UTC] PHP Fatal error:  Call to a member function cancelSubscription() on a non-object in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 192
+[07-Oct-2014 17:51:58 UTC] PHP Fatal error:  Call to a member function createSubscription() on a non-object in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 23
+[07-Oct-2014 17:57:15 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'expected customer id to be set' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Customer.php:525
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Customer.php(190): Braintree_Customer::_validateId('0')
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(57): Braintree_Customer::find('0')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(23): Payments_Controller->createSubscription(0, NULL, '839461771', Array)
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): nFund(Array)
+#4 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Customer.php on line 525
+[07-Oct-2014 17:59:36 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php:59
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Http.php(48): Braintree_Util::throwStatusCodeException(404)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Subscription.php(112): Braintree_Http::put('/subscriptions/...')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(36): Braintree_Subscription::cancel('monthly')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(192): Payments_Controller->cancelSubscription('monthly')
+#4 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): delFund(Array)
+#5 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php on line 59
+[07-Oct-2014 18:28:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 25
+[07-Oct-2014 18:57:55 UTC] PHP Notice:  Undefined property on Braintree_PayPalAccount: Braintree_PayPalAccount in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree.php on line 47
+[07-Oct-2014 19:16:49 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php:59
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Http.php(48): Braintree_Util::throwStatusCodeException(404)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Subscription.php(112): Braintree_Http::put('/subscriptions/...')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(36): Braintree_Subscription::cancel('monthly')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(198): Payments_Controller->cancelSubscription('monthly')
+#4 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): delFund(Array)
+#5 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php on line 59
+[07-Oct-2014 20:52:21 UTC] PHP Parse error:  syntax error, unexpected T_ELSE in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 39
+[07-Oct-2014 20:53:25 UTC] PHP Parse error:  syntax error, unexpected T_ELSE in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 39
+[07-Oct-2014 20:54:11 UTC] PHP Parse error:  syntax error, unexpected T_ELSE in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 39
+[07-Oct-2014 20:55:12 UTC] PHP Parse error:  syntax error, unexpected T_ELSE in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 39
+[07-Oct-2014 20:55:23 UTC] PHP Parse error:  syntax error, unexpected T_ELSE in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 39
+[07-Oct-2014 20:55:57 UTC] PHP Parse error:  syntax error, unexpected T_ELSE in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 39
+[07-Oct-2014 20:57:16 UTC] PHP Parse error:  syntax error, unexpected T_ELSE in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 39
+[07-Oct-2014 20:57:49 UTC] PHP Parse error:  syntax error, unexpected T_ELSE in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 39
+[07-Oct-2014 21:46:41 UTC] PHP Fatal error:  Call to undefined method Model::updateUserToken() in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 31
+[07-Oct-2014 21:47:08 UTC] PHP Fatal error:  Call to undefined method Model::updateUserToken() in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 31
+[07-Oct-2014 21:47:24 UTC] PHP Fatal error:  Call to undefined method Model::updateUserToken() in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 31
+[07-Oct-2014 21:47:48 UTC] PHP Fatal error:  Call to undefined method Model::updateUserToken() in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 31
+[08-Oct-2014 01:20:15 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php:59
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Http.php(48): Braintree_Util::throwStatusCodeException(404)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Subscription.php(112): Braintree_Http::put('/subscriptions/...')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(36): Braintree_Subscription::cancel('monthly')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(200): Payments_Controller->cancelSubscription('monthly')
+#4 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): delFund(Array)
+#5 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php on line 59
+[08-Oct-2014 21:38:39 UTC] PHP Notice:  Undefined property on Braintree_Result_Error: customer in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree.php on line 47
+[08-Oct-2014 21:40:14 UTC] PHP Notice:  Undefined property on Braintree_Result_Error: customer in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree.php on line 47
+[09-Oct-2014 07:48:25 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 199
+[09-Oct-2014 08:08:33 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php:59
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Http.php(48): Braintree_Util::throwStatusCodeException(404)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Subscription.php(112): Braintree_Http::put('/subscriptions/...')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(36): Braintree_Subscription::cancel('monthly')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(214): Payments_Controller->cancelSubscription('monthly')
+#4 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): delFund(Array)
+#5 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php on line 59
+[09-Oct-2014 08:15:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 24
+[09-Oct-2014 08:15:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 24
+[09-Oct-2014 08:16:36 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' with message 'customer with id 1 not found' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Customer.php:195
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(56): Braintree_Customer::find('1')
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(34): Payments_Controller->createSubscription(0, 'monthly', '1', Array)
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): nFund(Array)
+#3 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Customer.php on line 195
+[09-Oct-2014 08:16:48 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' with message 'customer with id 1 not found' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Customer.php:195
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(56): Braintree_Customer::find('1')
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(34): Payments_Controller->createSubscription(0, 'monthly', '1', Array)
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): nFund(Array)
+#3 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Customer.php on line 195
+[09-Oct-2014 10:32:18 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php:59
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Http.php(48): Braintree_Util::throwStatusCodeException(404)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Subscription.php(112): Braintree_Http::put('/subscriptions/...')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(36): Braintree_Subscription::cancel('monthly')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(223): Payments_Controller->cancelSubscription('monthly')
+#4 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): delFund(Array)
+#5 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php on line 59
+[09-Oct-2014 10:33:15 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php:59
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Http.php(48): Braintree_Util::throwStatusCodeException(404)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Subscription.php(112): Braintree_Http::put('/subscriptions/...')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(36): Braintree_Subscription::cancel('monthly')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(223): Payments_Controller->cancelSubscription('monthly')
+#4 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): delFund(Array)
+#5 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php on line 59
+[09-Oct-2014 10:34:07 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php:59
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Http.php(48): Braintree_Util::throwStatusCodeException(404)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Subscription.php(112): Braintree_Http::put('/subscriptions/...')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(36): Braintree_Subscription::cancel('monthly')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(223): Payments_Controller->cancelSubscription('monthly')
+#4 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): delFund(Array)
+#5 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php on line 59
+[09-Oct-2014 10:34:42 UTC] PHP Fatal error:  Uncaught exception 'Braintree_Exception_NotFound' in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php:59
+Stack trace:
+#0 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Http.php(48): Braintree_Util::throwStatusCodeException(404)
+#1 /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Subscription.php(112): Braintree_Http::put('/subscriptions/...')
+#2 /home/withanch/public_html/slicingpie.com/pieslicer/controller/Payments_Controller.php(36): Braintree_Subscription::cancel('')
+#3 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(223): Payments_Controller->cancelSubscription('')
+#4 /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php(5): delFund(Array)
+#5 {main}
+  thrown in /home/withanch/public_html/slicingpie.com/pieslicer/controller/braintree/lib/Braintree/Util.php on line 59
+[09-Oct-2014 15:16:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/withanch/public_html/slicingpie.com/pieslicer/system/SQLHelper.php on line 320
+[09-Oct-2014 16:43:57 UTC] PHP Warning:  fopen(tmp/1_1412873037.csv) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 252
+[09-Oct-2014 16:43:57 UTC] PHP Warning:  fputcsv() expects parameter 1 to be resource, boolean given in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 253
+[09-Oct-2014 16:43:57 UTC] PHP Warning:  fputcsv() expects parameter 1 to be resource, boolean given in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 265
+[09-Oct-2014 16:43:57 UTC] PHP Warning:  fputcsv() expects parameter 1 to be resource, boolean given in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 265
+[09-Oct-2014 16:43:57 UTC] PHP Warning:  fputcsv() expects parameter 1 to be resource, boolean given in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 265
+[09-Oct-2014 16:43:57 UTC] PHP Warning:  fputcsv() expects parameter 1 to be resource, boolean given in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 265
+[09-Oct-2014 16:43:57 UTC] PHP Warning:  fputcsv() expects parameter 1 to be resource, boolean given in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 265
+[09-Oct-2014 16:43:57 UTC] PHP Warning:  fputcsv() expects parameter 1 to be resource, boolean given in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 265
+[09-Oct-2014 16:43:57 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 268
+[09-Oct-2014 17:25:04 UTC] PHP Warning:  unlink() [<a href='function.unlink'>function.unlink</a>]: No such file or directory in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 275
+[09-Oct-2014 17:26:28 UTC] PHP Warning:  unlink() [<a href='function.unlink'>function.unlink</a>]: No such file or directory in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 275
+[13-Oct-2014 10:29:42 UTC] PHP Warning:  function_exists() expects parameter 1 to be string, array given in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 4
+[13-Oct-2014 10:31:44 UTC] PHP Fatal error:  Call to undefined method Model::getTokenByID() in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 96
+[13-Oct-2014 10:34:12 UTC] PHP Warning:  Missing argument 1 for SQLHelper::getTokenByID(), called in /home/withanch/public_html/slicingpie.com/pieslicer/system/Model.php on line 71 and defined in /home/withanch/public_html/slicingpie.com/pieslicer/system/SQLHelper.php on line 288
+[13-Oct-2014 10:34:32 UTC] PHP Warning:  Missing argument 1 for SQLHelper::getTokenByID(), called in /home/withanch/public_html/slicingpie.com/pieslicer/system/Model.php on line 71 and defined in /home/withanch/public_html/slicingpie.com/pieslicer/system/SQLHelper.php on line 288
+[15-Oct-2014 13:32:02 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 24
+[15-Oct-2014 13:39:23 UTC] PHP Catchable fatal error:  Object of class Payments_Controller could not be converted to string in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 26
+[21-Oct-2014 22:30:39 UTC] PHP Warning:  Division by zero in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 216
+[24-Oct-2014 18:23:16 UTC] PHP Warning:  Division by zero in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 216
+[24-Oct-2014 18:27:57 UTC] PHP Warning:  Division by zero in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 216
+[24-Oct-2014 18:50:41 UTC] PHP Warning:  Division by zero in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 216
+[24-Oct-2014 19:18:17 UTC] PHP Warning:  Division by zero in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 216
+[24-Oct-2014 19:32:15 UTC] PHP Warning:  Division by zero in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 216
+[29-Oct-2014 21:42:15 UTC] PHP Warning:  Division by zero in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 221
+[29-Oct-2014 21:48:06 UTC] PHP Warning:  Division by zero in /home/withanch/public_html/slicingpie.com/pieslicer/system/functions.php on line 221
