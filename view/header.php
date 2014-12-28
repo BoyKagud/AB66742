@@ -459,8 +459,7 @@ $(document).ready(function() {
 						<select class="form-control" name="subscription">
 							<option value="monthly">Monthly ($5)</option>
 							<option value="annual">Annual ($50)</option>
-							<!-- <option value="forever">Forever ($99)</option> -->
-							<option value="triannual">3-Year Plan ($99)</option>
+							<option value="forever">Forever ($99)</option>
 						</select>
 					</div>
 					<div id="cfpass-wrap" class="form-group">
