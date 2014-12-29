@@ -202,7 +202,7 @@ if(isLead()) {
 }
 
 function fixCalc() {
-	var msg = "Hmmmm. Something's not right <br/>Please wait as we fix your pie for you.";
+	var msg = "Please wait as we fix your pie for you.";
 	loadSpinner(msg);
 	setTimeout(function() {
 		var sumContrib = 0;
@@ -221,8 +221,10 @@ function fixCalc() {
 		}
 
 		Pie.TBV = sumContrib;
-		saveDOM();
-		init(false);
+		setTimeout(function() {
+			saveDOM();
+			init(false); 
+		},0);
 		hideSpinner();
 	},1000);
 }
