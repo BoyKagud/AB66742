@@ -379,10 +379,21 @@ $("#btn-addGrunt").on("click", function() {
 $("#addG").click(function(){
 	var agf = $("#addgForm").serializeArray();
 	$("#gruntFMS-error").html("");
-	if(agf[2].value == "" ) {
+	$("#gruntMail-error").html("");
+	agf[2].value = agf[2].value.replace(/,/g, '');
+	if(agf[2].value == "" || /^([0-9]*)$/.test(agf[2].value) == false ) {
 		$("#gruntFMS-error").html("Invalid Fair Market Salary");
 		return;
 	}
+	if(agf[1].value == "" ) {
+		$("#gruntMail-error").html("Please provide the team member's email");
+		return;
+	}
+	if(agf[1].value.indexOf("@") == -1) {
+		$("#gruntMail-error").html("Please provide a valid email address");
+		return;
+	}
+
 	var advisor = false;
 	if(agf[3])
 		advisor = true;
