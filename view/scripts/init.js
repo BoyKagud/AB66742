@@ -390,6 +390,9 @@ function reset() {
 function addNewGrunt(gname, gemail, fms, flag, adv) { //need AJAX
 	// send ajax request to create new grunt and return id
 	fms = parseVal(fms);
+	if(gemail.indexOf("@") == -1 || fms <= 0) {
+		return;
+	}
 	var f = 0;
 	if(flag==true) f=1;
 	var info = {share:{GHRR:0, tbv:0, fair_market_salary:fms}, name:gname, email:gemail, fid:Pie.id, fexec:f, advisor:adv, lead:sessGrunt.name, pname:Pie.name};
