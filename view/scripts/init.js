@@ -194,6 +194,9 @@ function init(firstInit) {
 				// var gPie = {value:gruntpct, color:grunt.color, label:lbl};
 				// pieGraph.addData(gPie);
 				continue;
+				// var smokescreen = document.createElement("div");
+				// smokescreen.setAttribute("style", "z-index:200;position:relative;background:url('view/images/lightboxbg.png');width:100%;height:100%;bottom:285px;");
+				// node.appendChild(smokescreen);
 			}
 			document.getElementById("grunts-cont").appendChild(node);
 
@@ -387,7 +390,7 @@ function reset() {
 	togglePopup();
 }
 
-function addNewGrunt(gname, gemail, fms, flag, adv) { //need AJAX
+function addNewGrunt(gname, gemail, fms, flag, accT) { //need AJAX
 	// send ajax request to create new grunt and return id
 	fms = parseVal(fms);
 	if(gemail.indexOf("@") == -1 || fms <= 0) {
@@ -395,7 +398,7 @@ function addNewGrunt(gname, gemail, fms, flag, adv) { //need AJAX
 	}
 	var f = 0;
 	if(flag==true) f=1;
-	var info = {share:{GHRR:0, tbv:0, fair_market_salary:fms}, name:gname, email:gemail, fid:Pie.id, fexec:f, advisor:adv, lead:sessGrunt.name, pname:Pie.name};
+	var info = {share:{GHRR:0, tbv:0, fair_market_salary:fms}, name:gname, email:gemail, fid:Pie.id, fexec:f, accType:accT, lead:sessGrunt.name, pname:Pie.name};
 	var grunt = null;
 	var ret = 0;
 	$.ajaxSetup({async: false});
@@ -693,7 +696,7 @@ function initTblFMS() {
 }
 
 function getGruntTypeString(id) {
-	var tmp = ["CEO", "Adviser", "Executive", "Employee"];
+	var tmp = ["CEO", "Executive", "Adviser", "Employee"];
 	return tmp[id];
 }
 
@@ -931,7 +934,20 @@ function initSum() {
 
 		if(parseInt(Pie.grunts[k].status) > 0) {
 			node.setAttribute("class", "table-record danger");
-			node.getElementsByClassName("contrib-slice")[0].innerHTML = "<button class='btn btn-danger btn-buyout pop' data-toggle='popover' data-placement='left' data-content='<span style=\"color:red;font-weight:800;\">Warning:</span> this action cannot be undone'>Buyout "+Pie.grunts[k].name+" for <br />"+Pie.settings.fund.currency+" "+parseInt(Pie.grunts[k].status).toLocaleString()+"</button>";
+			var btn_content = "<button class='btn btn-danger btn-buyout pop' data-toggle='popover' data-placement='left' data-content='<span style=\"color:red;font-weight:800;\">Warning:</span> this action cannot be undone'>Buyout "+Pie.grunts[k].name+" for <br />"+Pie.settings.fund.currency+" "+parseInt(Pie.grunts[k].status).toLocaleString()+"</button>";
+			node.getElementsByClassName("contrib-slice")[0].innerHTML = btn_content;
+			// workaround for frontpage buyout
+			var btn_wa = document.createElement("button");
+			btn_wa.setAttribute("class", "btn btn-danger btn-buyout pop");
+			btn_wa.setAttribute("data-toggle", "popover");
+			btn_wa.setAttribute("data-placement", "left");
+			btn_wa.setAttribute("data-content", "<span style=\"color:red;font-weight:800;\">Warning:</span> this action cannot be undone'>");
+			btn_wa.innerHTML = Pie.grunts[k].name+" for <br />"+Pie.settings.fund.currency+" "+parseInt(Pie.grunts[k].status).toLocaleString();
+			// $("#grunt-cont-"+Pie.grunts[k].grunt_id).find("");
+
+			// TODO:
+
+			// end workaround
 		} else {
 			node.getElementsByClassName("contrib-time")[0].innerHTML = timeTotal.toLocaleString();
 			node.getElementsByClassName("contrib-cash")[0].innerHTML = cashTotal.toLocaleString();
