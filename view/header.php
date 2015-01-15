@@ -575,7 +575,13 @@ $(document).ready(function() {
 					<label>Fair Market Salary Less Cash Compensation</label>
 					<span id="gruntFMS-error" style="color:red;float:right;"></span>
 					<input type="text" name="gruntFMS" /><br />
-					<input type="checkbox" class="wleft" name="advisor" /> <div class="margleft wleft">Advisor</div><div class="margleft infoglyph wleft" data-content="<span style='color:red;font-weight:800;'>Warning:</span> Advisors cannot be removed from the fund."></div><br /><br />
+					<label>Account Type <span class="margleft infoglyph wright"></span></label>
+					<select id="select-accType" name="accType" style="margin-bottom:8px;">
+						<option value="3">Employee</option>
+						<option value="2">Adviser</option>
+						<option value="1">Executive</option>
+					</select>
+					<!-- <input type="checkbox" class="wleft" name="advisor" /> <div class="margleft wleft">Advisor</div><div class="margleft infoglyph wleft" data-content="<span style='color:red;font-weight:800;'>Warning:</span> Advisors cannot be removed from the fund."></div><br /><br /> -->
 					<input type="button" class="btn btn-danger btn-sm calcBtn" id="addG" value="Add Team Member" data-container="#addgForm" data-toggle="popover" data-trigger="manual" data-placement="top" data-content='<div>Oops, that email is already being used for a contributor in another pie! Do you want to continue?</div> <div><button style="margin:10px;" class="btn btn-danger btn-cont-addg btn-sm wleft">Continue</button><button style="margin:10px;" class="btn btn-danger btn-sm btn-reset wright" onclick="event.preventDefault;reset();">Cancel</button></div>' />
 					<input class="btn btn-danger btn-sm btn-reset" type="button" value="Cancel" />
 				</form>
