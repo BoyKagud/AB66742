@@ -394,10 +394,8 @@ $("#addG").click(function(){
 		return;
 	}
 
-	var advisor = false;
-	if(agf[3])
-		advisor = true;
-	var k = addNewGrunt(agf[0].value, agf[1].value, parseVal(agf[2].value), false, advisor);
+	var accType = parseInt(agf[3].value);
+	var k = addNewGrunt(agf[0].value, agf[1].value, parseVal(agf[2].value), false, accType);
 	console.log(k);
 	if(k==0 || k=="0") {
 		$(".btn[data-toggle='popover']").popover('show');
@@ -407,10 +405,8 @@ $("#addG").click(function(){
 });
 
 $(".btn-cont-addg").click(function() {
-	var advisor = false;
-	if(agf[3]) 
-		advisor = true;
-	addNewGrunt(agf[0].value, agf[1].value, agf[2].value, true, advisor);
+	var accType = parseInt(agf[3]) < 0 ? 3 : parseInt(agf[3]);
+	addNewGrunt(agf[0].value, agf[1].value, agf[2].value, true, accType);
 	location.reload();
 	$("#addgForm-wrap").fadeToggle(100);
 });
