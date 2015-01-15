@@ -458,9 +458,10 @@ class SQLHelper {
 		$share = $args["share"];
 		unset($args["share"]);
 
-		$gtype = 0;
-		if( strcmp($args["advisor"], "true") == 0)
-			$gtype = 1;
+		if( !isset($args["accType"]) )
+			$gtype = 3;
+		else 
+			$gtype = intval($args["accType"]);
 
 		$pass = strtolower($args["name"]);
 		$args["password"] = md5($pass);
@@ -478,7 +479,7 @@ class SQLHelper {
 		if(!isset($grunt["id"])) {
 			$body .= " Username: ".$args["email"]." <br />Temporary Password: ".$pass;
 			unset($args["fexec"]);
-			unset($args["advisor"]);
+			unset($args["accType"]);
 			unset($args["pname"]);
 			unset($args["lead"]);
 			// die(print_r($args));
