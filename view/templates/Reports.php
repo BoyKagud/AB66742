@@ -11,7 +11,7 @@
 			<div class="wright">
                 <div style="font-size:15px;"><strong>Fund Summary</strong><br/></div>
                 <div><strong>By Project</strong></div>
-                <div id="fbm-legend-wrap">
+                <div id="fbm-legend-wrap" style="width:250px;">
                     <div id="fbm-colorbox-model" class="colorBox" style="float:left;display:none;">
                         <div class="grunt-colorBox" style="background:#31859c;height:10px;width:10px;float:left;margin:5px;"></div>
                         <span class="grunt-name colorBox-gname">Time</span>
@@ -83,19 +83,21 @@ function initFBM() {
         }
     }
     for(var w in wproj) {
-        var attr = "projDat."+wproj[w].details.project;
+        var attr = "projDat."+(wproj[w].details.project.replace(/ /g, "_"));
         eval(attr+" == undefined ? "+attr+"=1 : "+attr+"+=1;");
     }
     var i = piecol.length-5;
     for (var prop in projDat) {
         if (projDat.hasOwnProperty(prop)) {
+            var clr = piecol[i%10];
             pieCanvasFBM.addData({
                 value: eval("parseFloat(((projDat."+prop+")/projTotal).toFixed(2))"),
-                color: piecol[i%10],
-                label: prop
+                color: clr,
+                label: prop.replace(/_/g, " ")
             });
-            addFBMLegend(prop, piecol[i%10]);
+            addFBMLegend(prop.replace(/_/g, " "), clr);
             i--;
+            if(i<0) i+=10;
         }
     }
 }
@@ -119,8 +121,8 @@ var pieCanvasFBM = new Chart(document.getElementById("reports-piecanvas-fbm").ge
 
 var contClone = [];
 var wdata = null;
-    var projDat = {};
-    var lineCanvas = null;
+var projDat = {};
+var lineCanvas = null;
 $(document).ready(function() {
     
     sortContrib(4);
