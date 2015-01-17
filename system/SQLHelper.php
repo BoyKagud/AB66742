@@ -343,7 +343,7 @@ class SQLHelper {
 	public function addContribution($gid, $fid, $details) {
 		return $this->insert($this->TBL_CONTRIBUTIONS, array("grunt_id"=>$gid, 
 														"fund_id"=>$fid, 
-														"details"=>$details));
+														"details"=>preg_replace('/\n/', "<br/>", trim($details))));
 	}
 
 	public function createFund($lead, $fn, $token) {
