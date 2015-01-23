@@ -202,7 +202,7 @@ if(isLead()) {
 }
 
 function fixCalc() {
-	var msg = "Hmmmm. Something's not right <br/>Please wait as we fix your pie for you.";
+	var msg = "Please wait as we fix your pie for you.";
 	loadSpinner(msg);
 	setTimeout(function() {
 		var sumContrib = 0;
@@ -221,8 +221,10 @@ function fixCalc() {
 		}
 
 		Pie.TBV = sumContrib;
-		saveDOM();
-		init(false);
+		setTimeout(function() {
+			saveDOM();
+			init(false); 
+		},0);
 		hideSpinner();
 	},1000);
 }
@@ -377,14 +379,23 @@ $("#btn-addGrunt").on("click", function() {
 $("#addG").click(function(){
 	var agf = $("#addgForm").serializeArray();
 	$("#gruntFMS-error").html("");
-	if(agf[2].value == "" ) {
+	$("#gruntMail-error").html("");
+	agf[2].value = agf[2].value.replace(/,/g, '');
+	if(agf[2].value == "" || /^([0-9]*)$/.test(agf[2].value) == false ) {
 		$("#gruntFMS-error").html("Invalid Fair Market Salary");
 		return;
 	}
-	var advisor = false;
-	if(agf[3])
-		advisor = true;
-	var k = addNewGrunt(agf[0].value, agf[1].value, parseVal(agf[2].value), false, advisor);
+	if(agf[1].value == "" ) {
+		$("#gruntMail-error").html("Please provide the team member's email");
+		return;
+	}
+	if(agf[1].value.indexOf("@") == -1) {
+		$("#gruntMail-error").html("Please provide a valid email address");
+		return;
+	}
+
+	var accType = parseInt(agf[3].value);
+	var k = addNewGrunt(agf[0].value, agf[1].value, parseVal(agf[2].value), false, accType);
 	console.log(k);
 	if(k==0 || k=="0") {
 		$(".btn[data-toggle='popover']").popover('show');
@@ -394,10 +405,8 @@ $("#addG").click(function(){
 });
 
 $(".btn-cont-addg").click(function() {
-	var advisor = false;
-	if(agf[3]) 
-		advisor = true;
-	addNewGrunt(agf[0].value, agf[1].value, agf[2].value, true, advisor);
+	var accType = parseInt(agf[3]) < 0 ? 3 : parseInt(agf[3]);
+	addNewGrunt(agf[0].value, agf[1].value, agf[2].value, true, accType);
 	location.reload();
 	$("#addgForm-wrap").fadeToggle(100);
 });
