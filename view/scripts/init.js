@@ -195,7 +195,7 @@ function init(firstInit) {
 					document.getElementById("grunts-cont").appendChild(node);
 					$(".btn-buyout").attr("disabled", "disabled");
 				}
-
+ 
 				// gruntpct = (parseInt(grunt.status) > 0 ? (Math.round(((parseInt(grunt.status)/Pie.TBV)*100) * 100) / 100) : 0 );
 				// var lbl = grunt.name+" (see Summary tab)"
 				// var gPie = {value:gruntpct, color:grunt.color, label:lbl};
