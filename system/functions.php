@@ -190,6 +190,8 @@ function delContrib($args) {
 
 function addContrib($args) {
 	$args["details"] = json_encode($args["details"]);
+	$args["details"] = str_replace("\\r\\n", "<br/>", trim($args["details"]));
+	// echo $args["details"]."\n";
 	echo Model::addContrib($args["gid"], $args["fid"], $args["details"]);
 	// print_r($args);
 }
