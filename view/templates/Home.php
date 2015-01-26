@@ -1,39 +1,55 @@
 <div class="page-wrap" id="home-wrap">
 
 <!-- Grunts -->
-<div class="widget wleft grunts-cont home-grunts">
-	<div class="widget-header"><strong>Team</strong></div>
-	<div class="widget-body" id="grunts-cont" style="overflow:hidden;padding:0;padding-top:18px;height:346px;">
-		<div class="grunt-cont" id="grunt-cont-model" style="display:none;">
-			<span class="glyphicon glyphicon-remove delGruntX a-remove" data-toggle="tooltip" data-placement="bottom" data-original-title="Remove Team Member"></span>
-			<div class="grunt-img" style="url('view/images/user-128.jpg') no-repeat center center"></div>
-			<ul class="grunt-det-popover">
-            	<li style="margin-bottom:5px;"><span class="grunt-name" style="font-weight:bold; font-size:13px;">Grunt 1</span><br/><span class="grunt-lli" id="grunt-lli-0" style="color:#696969;font-size:10px;">No Login Records</span></li>
-                <li>Slices:  <span class="grunt-tbv" id="grunt-tbv-0">5000</span></li>
-                <li>Well:  <span class="grunt-well" id="grunt-well-0">0</span>%</li>
-                <li>Well Balance:  <span class="grunt-wellb" id="grunt-wellb-0">0</span><span class="span-currency"></li>
-                <li>Pie:  <span class="grunt-pct" id="grunt-tbv-pct-0">50%</span></li>
-                <li style="padding:10px 0 5px;"><!-- Select -->
-					<select class="contrib-selector form-control">
-						<option value="-1">Add Contribution</option>
-						<option value="timeForm">Time</option>
-						<option value="expForm">Expenses</option>
-						<option value="supForm">Supplies</option>
-						<option value="eqForm">Equipment</option>
-						<option value="salesForm">Sales</option>
-						<option value="royaltyForm">Royalty</option>
-						<!-- <option value="ifForm">Finder's Fee Earned</option> -->
-						<option value="faciForm">Facilities</option>
-						<option value="otherForm">Other</option>
-					</select>
-				</li>
-				<!-- <li class="li-resign"><button class="btn btn-warning btn-sm btn-resign">Resign</button></li> -->
-                
-				<!-- <li> -->
-                <!-- <button style="padding: 5px auto; width: 100%;" class="btn btn-xs button-danger a-remove" href="#">Remove Team Member</button> -->
-                <!-- </li> -->
-				
-			</ul>
+<div role="tabpanel" class="widget wleft grunts-cont home-grunts">
+	<!-- <div class="widget-header"><strong>Team</strong></div> -->
+	<!-- <div id="div-gruntCont-tabs"> -->
+		<ul class="nav nav-tabs" role="tablist">
+			<span><strong style="font-size:17px;font-family:'Lato', sans-serif;letter-spacing:.02em;color:#696969;">Team Members</strong></span>
+			<li role="presentation">
+				<a style="color:#696969" href="#div-inactive-grunts" aria-controls="div-inactive-grunts" role="tab" data-toggle="tab">Inactive<span id="grunts-inactive-badge" class="badge" style="margin-left:5px;display:none;">2</span></a>
+			</li>
+			<li role="presentation" class="active">
+				<a style="color:#696969" href="#grunts-cont" aria-controls="grunts-cont" role="tab" data-toggle="tab">Active</a>
+			</li>
+		</ul>
+	<!-- </div> -->
+	<div class="tab-content">
+		<div role="tabpanel" class="tab-pane active fade in widget-body" id="grunts-cont" style="overflow:hidden;padding:0;padding-top:18px;height:346px;">
+			<div class="grunt-cont" id="grunt-cont-model" style="display:none;">
+				<span class="glyphicon glyphicon-remove delGruntX a-remove" data-toggle="tooltip" data-placement="bottom" data-original-title="Remove Team Member"></span>
+				<div class="grunt-img" style="url('view/images/user-128.jpg') no-repeat center center"></div>
+				<ul class="grunt-det-popover">
+	            	<li style="margin-bottom:5px;"><span class="grunt-name" style="font-weight:bold; font-size:13px;">Grunt 1</span><br/><span class="grunt-lli" id="grunt-lli-0" style="color:#696969;font-size:10px;">No Login Records</span></li>
+	                <li>Slices:  <span class="grunt-tbv" id="grunt-tbv-0">5000</span></li>
+	                <li>Well:  <span class="grunt-well" id="grunt-well-0">0</span>%</li>
+	                <li>Well Balance:  <span class="grunt-wellb" id="grunt-wellb-0">0</span><span class="span-currency"></li>
+	                <li>Pie:  <span class="grunt-pct" id="grunt-tbv-pct-0">50%</span></li>
+	                <li style="padding:10px 0 5px;"><!-- Select -->
+						<select class="contrib-selector form-control">
+							<option value="-1">Add Contribution</option>
+							<option value="timeForm">Time</option>
+							<option value="expForm">Expenses</option>
+							<option value="supForm">Supplies</option> 
+							<option value="eqForm">Equipment</option>
+							<option value="salesForm">Sales</option>
+							<option value="royaltyForm">Royalty</option>
+							<!-- <option value="ifForm">Finder's Fee Earned</option> -->
+							<option value="faciForm">Facilities</option>
+							<option value="otherForm">Other</option>
+						</select>
+					</li>
+					<!-- <li class="li-resign"><button class="btn btn-warning btn-sm btn-resign">Resign</button></li> -->
+	                
+					<!-- <li> -->
+	                <!-- <button style="padding: 5px auto; width: 100%;" class="btn btn-xs button-danger a-remove" href="#">Remove Team Member</button> -->
+	                <!-- </li> -->
+					
+				</ul>
+			</div>
+		</div>
+		<div role="tabpanel" class="tab-pane fade" id="div-inactive-grunts" style="padding-top:18px;height:346px;">
+			<div id="nogrunts-prompt" style="margin:170px;color:#696969;"><strong>There are no inactive members</strong></div>
 		</div>
 	</div>
 	<div style="width:100%;text-align:center;" id="grunt-showMore"><span class="glyphicon glyphicon-chevron-down" style="position:relative;font-size:18px;"></span></div>
