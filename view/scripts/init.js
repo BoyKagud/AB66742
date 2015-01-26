@@ -119,6 +119,14 @@ function init(firstInit) {
 		var total = 0;
 		for(var k=0 ; k<Pie.grunts.length ; k++) {
 			var grunt = Pie.grunts[k];
+
+			// break down status object
+			if(typeof grunt.status === "object") {
+				grunt.buyoutpaid = grunt.status.paid;
+				grunt.status = grunt.status.buyout;
+			}
+			// end break down
+
 			grunt.color = (k>10) ? piecol[k%10] : piecol[k];
 			var gruntpct = (grunt.share.tbv > 0 ? (Math.round(((grunt.share.tbv/Pie.TBV)*100) * 100) / 100) : 0 );
 			grunt.pct = gruntpct;
@@ -543,6 +551,24 @@ function disableGruntForBuyout(grunt) {
 }
 
 $("body").on("click", ".btn-buyout",function() {
+
+	var container = $(this).parent().parent();
+	var tag = container.attr("tag");
+	var grunt = null;
+	for(k in Pie.grunts) {
+		if(Pie.grunts[k].gid == tag) {
+			grunt = Pie.grunts[k];
+			Pie.grunts.splice(k, 1);
+		}
+	}
+	if(grunt == null) return;
+
+	$(".boGrunt-name").html(grunt.name);
+	$("#boGrunt-amount").html(grunt.status);
+
+	$("#boGrunt-wrap").modal();
+	return;
+
 	var container = $(this).parent().parent();
 	var tag = container.attr("tag");
 	var grunt = null;
