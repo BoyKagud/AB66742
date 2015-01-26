@@ -179,18 +179,17 @@ function init(firstInit) {
 			if(sessGrunt.grunt_type == 3) {
 				$(node).find(".grunt-lli").remove();
 			}
-			node.getElementsByClassName("grunt-name")[0].innerHTML = grunt.name;
 			node.getElementsByClassName("grunt-img")[0].setAttribute("style", "background:url('"+grunt.image+"') no-repeat center center;");
-			node.getElementsByClassName("grunt-tbv")[0].innerHTML = parseInt(grunt.share.tbv).toLocaleString();
-			node.getElementsByClassName("grunt-pct")[0].innerHTML = (gruntpct) ? gruntpct + "%" : "0%";
-			if(isLead() || sessGrunt.grunt_id != grunt.gid) {
-				$(node.getElementsByClassName("li-resign")[0]).remove();
-			}
+
 			if(parseInt(grunt.status) > 0)  {
 				try {
 					node.getElementsByClassName("btn-resign")[0].setAttribute("disabled", "disabled");
 				} catch(s) {}
 				inactiveGruntsLength++;
+				$("a[aria-controls='div-inactive-grunts']").css("margin-right", "5px");
+				$("#grunts-inactive-badge").show();
+				$("#grunts-inactive-badge").html(inactiveGruntsLength);
+				$("#nogrunts-prompt").remove();
 				$(node.getElementsByClassName("contrib-selector")[0]).remove();
 				if(!isLead()) {
 					document.getElementById("grunts-cont").appendChild(node);
@@ -201,12 +200,20 @@ function init(firstInit) {
 				// var lbl = grunt.name+" (see Summary tab)"
 				// var gPie = {value:gruntpct, color:grunt.color, label:lbl};
 				// pieGraph.addData(gPie);
-				continue;
-				// var smokescreen = document.createElement("div");
-				// smokescreen.setAttribute("style", "z-index:200;position:relative;background:url('view/images/lightboxbg.png');width:100%;height:100%;bottom:285px;");
-				// node.appendChild(smokescreen);
+				// continue;
+				var prnt = node.getElementsByClassName("grunt-det-popover");
+				prnt = prnt[0];
+				prnt.innerHTML = "<button class='btn btn-danger btn-buyout pop' data-toggle='popover' data-placement='left' data-content='<span style=\"color:red;font-weight:800;\">Warning:</span> this action cannot be undone'>Buyout "+grunt.name+" for <br />"+Pie.settings.fund.currency+" "+parseInt(grunt.status).toLocaleString()+"</button>";
+				document.getElementById("div-inactive-grunts").appendChild(node);
+			} else {
+				node.getElementsByClassName("grunt-name")[0].innerHTML = grunt.name;
+				node.getElementsByClassName("grunt-tbv")[0].innerHTML = parseInt(grunt.share.tbv).toLocaleString();
+				node.getElementsByClassName("grunt-pct")[0].innerHTML = (gruntpct) ? gruntpct + "%" : "0%";
+				if(isLead() || sessGrunt.grunt_id != grunt.gid) {
+					$(node.getElementsByClassName("li-resign")[0]).remove();
+				}
+				document.getElementById("grunts-cont").appendChild(node);
 			}
-			document.getElementById("grunts-cont").appendChild(node);
 
 			// append to investor list
 			var option = document.createElement("option");
@@ -800,6 +807,10 @@ function initContribTab() {
 			descclass = "pop";
 			desc = desc.substring(0,40)+"...";
 		}
+		if(desc.indexOf("<br/>") > 0) {
+			descclass = "pop";
+			desc = desc.substring(0,desc.indexOf("<br/>"))+"...";
+		}
 
 		node.getElementsByClassName("contribTab-grunt-name")[0].innerHTML = contributions[k].details.name;
 		node.getElementsByClassName("contribTab-contri")[0].innerHTML = getContribName(parseInt(contributions[k].details.contrib));
@@ -831,7 +842,7 @@ function initContribTab() {
 	}	
 
 	// $("#contributions-wrap").html(JSON.stringify(contributions));
-	$(".pop").popover({animation:true,trigger:'hover'});
+	$(".pop").popover({animation:true,trigger:'hover',html:true});
 }
 
 function getContribName(id) {
@@ -962,18 +973,6 @@ function initSum() {
 			node.setAttribute("class", "table-record danger");
 			var btn_content = "<button class='btn btn-danger btn-buyout pop' data-toggle='popover' data-placement='left' data-content='<span style=\"color:red;font-weight:800;\">Warning:</span> this action cannot be undone'>Buyout "+Pie.grunts[k].name+" for <br />"+Pie.settings.fund.currency+" "+parseInt(Pie.grunts[k].status).toLocaleString()+"</button>";
 			node.getElementsByClassName("contrib-slice")[0].innerHTML = btn_content;
-			// workaround for frontpage buyout
-			var btn_wa = document.createElement("button");
-			btn_wa.setAttribute("class", "btn btn-danger btn-buyout pop");
-			btn_wa.setAttribute("data-toggle", "popover");
-			btn_wa.setAttribute("data-placement", "left");
-			btn_wa.setAttribute("data-content", "<span style=\"color:red;font-weight:800;\">Warning:</span> this action cannot be undone'>");
-			btn_wa.innerHTML = Pie.grunts[k].name+" for <br />"+Pie.settings.fund.currency+" "+parseInt(Pie.grunts[k].status).toLocaleString();
-			// $("#grunt-cont-"+Pie.grunts[k].grunt_id).find("");
-
-			// TODO:
-
-			// end workaround
 		} else {
 			node.getElementsByClassName("contrib-time")[0].innerHTML = timeTotal.toLocaleString();
 			node.getElementsByClassName("contrib-cash")[0].innerHTML = cashTotal.toLocaleString();
@@ -1606,12 +1605,6 @@ if(Pie) {
 	    console.log(data);
 	});
 }
-
-$('textarea[name="desc"]').bind('keypress', function(e) {
-  if ((e.keyCode || e.which) == 13) {
-    return false;
-  }
-});
 
 $("#btn-dl-contribCsv").click(function() {
 	loadSpinner("Preparing your file...");
