@@ -383,6 +383,11 @@ function removeGrunt($args) {
 	echo Model::removeGrunt($args);
 }
 
+function partialRemGrunt($args) {
+	echo 134512345;
+	echo Model::partialRemGrunt($args);
+}
+
 function delContribs($args) {
 	Model::delContribs($args);
 }

@@ -554,6 +554,13 @@ class SQLHelper {
 		return $this->delete($this->TBL_AFFILIATIONS, $args["id"]);
 	}
 
+	public function partialRemGrunt($args) {
+		print_r($args);
+		$query = "UPDATE ".$this->TBL_AFFILIATIONS." SET status='".json_encode($args["info"])."' WHERE id=".$args["id"];
+		echo $query;
+		$this->runQuery($query);
+	}
+
 	public function delContribs($args) {
 		$query = "UPDATE ".$this->TBL_CONTRIBUTIONS." SET flag=1 WHERE ";
 		if(is_array($args["cid"])) {
@@ -564,8 +571,6 @@ class SQLHelper {
 			}
 		} else
 			$query .= (isset($args["cid"]) ? "id=".$args["cid"] : "grunt_id=".$args["gid"]." AND fund_id=".$args["fid"]);
-		print_r($args);
-		echo $query;
 		$this->runQuery($query);
 	}
 

@@ -119,6 +119,10 @@ class Model {
 		return Model::$sqlHelper->delGrunt($args);
 	}
 
+	public static function partialRemGrunt($args) {
+		return Model::$sqlHelper->partialRemGrunt($args);
+	}
+
 	public static function delContribs($args) {
 		return Model::$sqlHelper->delContribs($args);
 	}
