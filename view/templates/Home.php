@@ -15,7 +15,7 @@
 		</ul>
 	<!-- </div> -->
 	<div class="tab-content">
-		<div role="tabpanel" class="tab-pane active fade in widget-body" id="grunts-cont" style="overflow:hidden;padding:0;padding-top:18px;height:346px;">
+		<div role="tabpanel" class="tab-pane active fade in widget-body" id="grunts-cont" style="overflow:hidden;padding:0;padding-top:18px;height:370px;">
 			<div class="grunt-cont" id="grunt-cont-model" style="display:none;">
 				<span class="glyphicon glyphicon-remove delGruntX a-remove" data-toggle="tooltip" data-placement="bottom" data-original-title="Remove Team Member"></span>
 				<div class="grunt-img" style="url('view/images/user-128.jpg') no-repeat center center"></div>
@@ -49,7 +49,11 @@
 			</div>
 		</div>
 		<div role="tabpanel" class="tab-pane fade" id="div-inactive-grunts" style="padding-top:18px;height:346px;">
-			<div id="nogrunts-prompt" style="margin:170px;color:#696969;"><strong>There are no inactive members</strong></div>
+			<div id="nogrunts-prompt" style="margin:130px 25px;color:#696969;">
+				<span>An inactive member is a person who has been terminated, but not completely bought out. This means they still have slices, but are unable to log in and make new contributions. </span>
+				<br/><br/>
+				<strong>There are currently no inactive members for this Pie.</strong>
+			</div>
 		</div>
 	</div>
 	<div style="width:100%;text-align:center;" id="grunt-showMore"><span class="glyphicon glyphicon-chevron-down" style="position:relative;font-size:18px;"></span></div>
@@ -60,7 +64,7 @@
 			sep = ((Pie.grunts.length - inactiveGruntsLength) / 3) > sep ? sep+1 : sep;
 			if(ctrMod < sep-1) {
 				ctrMod++;
-				$("#grunts-cont").animate({height:"+=330px"}, 250);
+				$("#grunts-cont").animate({height:"+=360px"}, 250);
 				if(ctrMod==(sep)-1)
 					 $(this).fadeToggle();
 			} else $(this).fadeToggle();

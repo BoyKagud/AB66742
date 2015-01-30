@@ -91,6 +91,14 @@ body {
 	white-space: nowrap;
 	}
 
+.orDivider {
+	float:left;
+	border-top:1px solid #e0e0e0;
+	position:relative;
+	top:13px;
+	width:42%;
+}
+
 		.dd-links:hover {
 			color: #262626;
 			text-decoration: none;
@@ -156,7 +164,7 @@ body {
 			position: fixed;
 			width: 1020px;
 			background: url('../images/bg-top.jpg') repeat-x;
-			z-index: 2000;
+			z-index: 1000;
 		}
 
 		.header ul li[role="navigation"] {

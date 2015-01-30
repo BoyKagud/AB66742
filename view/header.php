@@ -253,9 +253,67 @@ $(document).ready(function() {
 	</ul>
 </div>
 
+	<div class="modal fade" id="boGrunt-wrap" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-sm">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Buyout <span class="boGrunt-name">Team Member</span></h4>
+	      </div>
+	      <div class="modal-body">
+	        <form>
+				<div style="text-align:center;margin:8px 0 20px 0;">
+					<button class="btn btn-danger btn-confirm-buyout" style="margin:auto;">Buyout <span class="boGrunt-name">Grunt</span><br/> for <span class="boGrunt-amount">0</span> <span class="span-currency"></span></button>
+				</div>
+				<div style="height:30px;margin:15px 0;">
+					<div class="orDivider"></div>
+					<div style="font-size:18px;position:relative;float:left;margin:0px 2%;">OR</div>
+					<div class="orDivider"></div>
+				</div>
+				<div style="margin-top:20px;">
+					<div class="form-group">
+						<label>If you can't afford the whole amount, enter a partial buyout below:</label>
+						<input class="form-control" type="number" id="bo-amount" value="0" />
+					</div>
+					<div style="text-align:center;">
+						<button class="btn btn-default btn-partial-buyout" style="margin:auto;">Buyout <span class="boGrunt-name">Grunt</span></button>
+					</div>
+				</div>
+			</form>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
 <!-- CONTRIBUTION FORM -->
 	<div class="popup" id="popup" style="position:fixed;">
 
+			<!-- Buyout Grunt UI -->
+			<div class="contribution-form" id="" style="margin:auto;margin-top:100px;width:30%;background:#fff;text-align:left;border-radius:5px;">
+				<div class="contribution-form-header widget-header">Buyout <span class="boGrunt-name">Team Member</span></div>
+				<form style="height:163px;">
+					<div>
+						<div class="form-group">
+							<label>Buyout with partial amount</label>
+							<input class="form-control" type="number" name="bo-amount" value="0" />
+						</div>
+						<button class="btn btn-danger">Buyout <span class="boGrunt-name">Grunt</span></button>
+					</div>
+					<div style="height:30px;">
+						<div class="orDivider"></div>
+						<div style="font-size:18px;position:relative;float:left;margin:0px 2%;">OR</div>
+						<div class="orDivider"></div>
+					</div>
+					<div>
+						<button class="btn btn-danger">Buyout <span class="boGrunt-name">Grunt</span> for <span>0 <span class="span-currency"></span></span></button>
+					</div>
+					<div>
+						<div><button class="btn btn-sm btn-danger btn-reset wright" style="margin-top:12px;">Cancel</button></div>
+					</div>
+				</form>
+			</div>
 		<!-- Credits -->
 		<div class="contribution-form" id="credits-wrap" style="margin:auto;margin-top:100px;width:700px;background:#fff;text-align:left;border-radius:5px;">
 			<div class="widget-header">Credits</div>
@@ -437,6 +495,7 @@ $(document).ready(function() {
 					<div><button class="btn btn-sm btn-danger btn-reset wright" style="margin-top:12px;">Cancel</button></div>
 				</form>
 			</div>
+
 
 			<!-- Add new Pie -->
 			<div class="contribution-form" id="newFund-wrap">
@@ -818,6 +877,7 @@ $(document).ready(function() {
 				    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Delete Contributions</a></li>
 				    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Edit Salaries</a></li>
 				    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Remove Members</a></li>
+				    <li role="presentation"><a role="menuitem" tabindex="-1" target="_blank" href="http://www.slicingpie.com/category/pie-slicer-updates/">Pie Slicer Updates</a></li>
 				  </ul>
             	</li>
             </ul>

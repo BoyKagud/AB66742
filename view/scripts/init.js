@@ -121,7 +121,8 @@ function init(firstInit) {
 			var grunt = Pie.grunts[k];
 
 			// break down status object
-			if(typeof grunt.status === "object") {
+			if(grunt.status.indexOf("{") == 0) {
+				grunt.status = JSON.parse(grunt.status);
 				grunt.buyoutpaid = grunt.status.paid;
 				grunt.status = grunt.status.buyout;
 			}
@@ -203,7 +204,7 @@ function init(firstInit) {
 				// continue;
 				var prnt = node.getElementsByClassName("grunt-det-popover");
 				prnt = prnt[0];
-				prnt.innerHTML = "<button class='btn btn-danger btn-buyout pop' data-toggle='popover' data-placement='left' data-content='<span style=\"color:red;font-weight:800;\">Warning:</span> this action cannot be undone'>Buyout "+grunt.name+" for <br />"+Pie.settings.fund.currency+" "+parseInt(grunt.status).toLocaleString()+"</button>";
+				prnt.innerHTML = "<button class='btn btn-danger btn-buyout' data-toggle='modal' data-target='#boGrunt-wrap'>Buyout "+grunt.name+"</button>";
 				document.getElementById("div-inactive-grunts").appendChild(node);
 			} else {
 				node.getElementsByClassName("grunt-name")[0].innerHTML = grunt.name;
@@ -557,6 +558,7 @@ function disableGruntForBuyout(grunt) {
 	$(parentDiv).remove();
 }
 
+var pendingBuyout = null;
 $("body").on("click", ".btn-buyout",function() {
 
 	var container = $(this).parent().parent();
@@ -569,31 +571,51 @@ $("body").on("click", ".btn-buyout",function() {
 		}
 	}
 	if(grunt == null) return;
+	pendingBuyout = grunt;
 
 	$(".boGrunt-name").html(grunt.name);
-	$("#boGrunt-amount").html(grunt.status);
-
-	$("#boGrunt-wrap").modal();
+	$(".boGrunt-amount").html(grunt.status);
 	return;
+});
 
-	var container = $(this).parent().parent();
-	var tag = container.attr("tag");
-	var grunt = null;
-	for(k in Pie.grunts) {
-		if(Pie.grunts[k].gid == tag) {
-			grunt = Pie.grunts[k];
-			Pie.grunts.splice(k, 1);
-		}
-	}
-	if(grunt == null) return;
+$("body").on("click", ".btn-confirm-buyout",function() {
+	var grunt = pendingBuyout;
+	console.log("Buying out "+grunt.name);
 	$.post(ajaxUrl, {action:"removeGrunt", args:{id:grunt.affid}}, function(data) {
 		Pie.TBV -= grunt.share.tbv;
 		inactiveGruntsLength--;
 	});
-	container.animate({opacity:0},150,function(){container.remove();location.reload();});
-	// if(inactiveGruntsLength < 1)
-		// $("#sum-indicator").fadeToggle();
+	setTimeout(function() {location.reload();}, 150);	
 	saveDOM();
+});
+
+$("body").on("click", ".btn-partial-buyout",function() {
+	if(pendingBuyout == null) return;
+	var grunt = pendingBuyout;
+	var statusObj = {paid:0, buyout:0};
+	statusObj.paid = parseInt($("#bo-amount").val());
+	grunt.status = parseInt(grunt.status);
+	if(statusObj.paid > grunt.status) {
+		$(".btn-confirm-buyout").click();
+	}
+	if(grunt.buyoutpaid === undefined) {
+		grunt.status -= statusObj.paid;
+		statusObj.buyout = grunt.status;
+		grunt.buyoutpaid = statusObj.paid;
+	} else {
+		grunt.status -= statusObj.paid;
+		statusObj.buyout = grunt.status;
+		grunt.buyoutpaid += statusObj.paid;
+	}
+	statusObj.paid = parseInt(statusObj.paid) + parseInt(grunt.buyoutpaid);
+	$.post(ajaxUrl, {action:"partialRemGrunt", args:{id:grunt.affid, info:statusObj}}, function(data) {
+		console.log(data)
+		inactiveGruntsLength--;
+	});
+
+	setTimeout(function() {location.reload();}, 150);	
+	saveDOM();
+
 });
 
 function saveDOM() {
@@ -971,7 +993,7 @@ function initSum() {
 
 		if(parseInt(Pie.grunts[k].status) > 0) {
 			node.setAttribute("class", "table-record danger");
-			var btn_content = "<button class='btn btn-danger btn-buyout pop' data-toggle='popover' data-placement='left' data-content='<span style=\"color:red;font-weight:800;\">Warning:</span> this action cannot be undone'>Buyout "+Pie.grunts[k].name+" for <br />"+Pie.settings.fund.currency+" "+parseInt(Pie.grunts[k].status).toLocaleString()+"</button>";
+			var btn_content = "<button class='btn btn-danger btn-buyout pop' data-toggle='modal' data-target='#boGrunt-wrap'>Buyout "+Pie.grunts[k].name+"</button>";
 			node.getElementsByClassName("contrib-slice")[0].innerHTML = btn_content;
 		} else {
 			node.getElementsByClassName("contrib-time")[0].innerHTML = timeTotal.toLocaleString();
