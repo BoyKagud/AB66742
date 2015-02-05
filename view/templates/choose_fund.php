@@ -201,6 +201,16 @@ $(document).ready(function() {
             lgform.submit();
         });
     </script>
+    <div style="width:100%; height:1px; clear:both;"></div>
+	<div class="userguide-dl">
+    	<a target="_blank" href="http://blpnt.co/ZwY9U">
+        	<img src="http://slicingpie.com/nightly/view/images/user-guide-icon.jpg" />    
+        </a>
+        
+        	<p>Click to Download the Pie Slicer User Guide</p>
+        
+	</div>
+
 
 </body>
 </html>
