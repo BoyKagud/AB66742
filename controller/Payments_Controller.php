@@ -1,7 +1,0 @@
-<?php
-
-/*
-** Private File
-** 
-**
-*/
