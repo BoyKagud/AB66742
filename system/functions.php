@@ -141,7 +141,7 @@ function nFund($args) {
 	}
 	else 
 		$pcont = $controller->createSubscription(0,$args["subscription"],$args["extra"]["BT_cutomerID"],$args["extra"]);
-	print_r($pcont);
+	// print_r($pcont);
 	if(isset($pcont["error"])) {
 		echo $pcont["error"];
 		return;
